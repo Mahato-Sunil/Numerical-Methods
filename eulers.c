@@ -1,12 +1,11 @@
 #include<stdio.h>
 
-#define f(x,y) x+y
+#define f(x,y) x*x-y
 
 int main()
 {
  float x0, y0, xn, h, yn, slope;
  int i, n;
- clrscr();
  printf("Enter Initial Condition\n");
  printf("x0 = ");
  scanf("%f", &x0);
